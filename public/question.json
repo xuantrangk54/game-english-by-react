@@ -1,0 +1,48 @@
+[
+    {
+      "text": "Who is the main character?",
+      "options": [
+        { "text": "The wind and the sun", "isCorrect": true },
+        { "text": "The fire and the sun", "isCorrect": false },
+        { "text": "The water and the wind", "isCorrect": false },
+        { "text": "The sun and the the earth", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "What are they having?",
+      "options": [
+        { "text": "They are having a wonderful plan.", "isCorrect": false },
+        { "text": "They are having a disagreement. ", "isCorrect": true },
+        { "text": "They are having a party", "isCorrect": false },
+        { "text": "They are having a meeting", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "What are they arguing about?",
+      "options": [
+        { "text": "Who is the fastest?", "isCorrect": false },
+        { "text": "Who is the tallest?", "isCorrect": false },
+        { "text": "Who is the weakest?", "isCorrect": true },
+        { "text": "Who is the strongest?", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "What is the capital of France?",
+      "options": [
+        { "text": "Berlin", "isCorrect": false },
+        { "text": "Madrid", "isCorrect": false },
+        { "text": "Paris", "isCorrect": true },
+        { "text": "Rome", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "What is the capital of France?",
+      "options": [
+        { "text": "Berlin", "isCorrect": false },
+        { "text": "Madrid", "isCorrect": false },
+        { "text": "Paris", "isCorrect": true },
+        { "text": "Rome", "isCorrect": false }
+      ]
+    }
+  ]
+  
