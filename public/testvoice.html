@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <script>
+        let voices = [];
+        // Lắng nghe sự kiện voiceschanged
+        speechSynthesis.onvoiceschanged = () => {
+            voices = speechSynthesis.getVoices();
+            console.log("Available voices:", voices);
+
+            // Bạn có thể chọn một giọng mặc định sau khi danh sách được tải
+            const defaultVoice = voices.find(voice => voice.name === 'Google UK English Male') || voices[0];
+            if (defaultVoice) {
+                console.log("Default voice selected:", defaultVoice.name);
+            }
+        };
+
+        // Hàm đọc văn bản
+        const handleReadText = (event) => {
+            event.preventDefault();
+
+            if ('speechSynthesis' in window) {
+                const utterance = new SpeechSynthesisUtterance("Hello, this is a text-to-speech test.");
+
+                // Sử dụng giọng nói nếu danh sách đã được tải
+                if (voices.length > 0) {
+                    const selectedVoice = voices.find(voice => voice.name === 'Google UK English Male') || voices[0];
+                    if (selectedVoice) {
+                        utterance.voice = selectedVoice;
+                    }
+                }
+
+                speechSynthesis.speak(utterance);
+            } else {
+                alert("Sorry, your browser does not support text-to-speech.");
+            }
+        };
+    </script>
+</body>
+
+</html>
