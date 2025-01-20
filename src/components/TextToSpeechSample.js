@@ -6,7 +6,6 @@ const TextToSpeechSample = () => {
   const [text, setText] = useState("Hello! This is a sample text-to-speech demo.");
 
   useEffect(() => {
-    // Lấy danh sách giọng nói khi trình duyệt tải xong
     const loadVoices = () => {
       const availableVoices = speechSynthesis.getVoices();
       setVoices(availableVoices);

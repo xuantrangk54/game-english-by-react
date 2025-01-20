@@ -6,9 +6,7 @@ const TextToSpeech = ({ text }) => {
   const handleReadText = (event) => {
     event.preventDefault();
     if ('speechSynthesis' in window) {
-    
       const utterance = new SpeechSynthesisUtterance(text); // Tạo đối tượng SpeechSynthesisUtterance từ văn bản
-      debugger;
       speechSynthesis.speak(utterance); // Đọc văn bản
     } else {
       alert("Sorry, your browser does not support text-to-speech.");

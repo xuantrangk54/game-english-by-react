@@ -2,6 +2,7 @@
   "video": "aHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvbDBaOEE0dTNDdEk/c2k9VTlwaGVaX3ZBUlhFMGVWbw==",
   "questions": [
     {
+      "id": 1,
       "text": "Who is the main character?",
       "options": [
         {
@@ -24,6 +25,7 @@
       "score": 1
     },
     {
+      "id": 2,
       "text": "What are they having?",
       "options": [
         {
@@ -46,6 +48,7 @@
       "score": 1
     },
     {
+      "id": 3,
       "text": "What are they arguing about?",
       "options": [
         {
@@ -62,50 +65,6 @@
         },
         {
           "text": "Who is the strongest?",
-          "isCorrect": false
-        }
-      ],
-      "score": 1
-    },
-    {
-      "text": "What is the capital of France?",
-      "options": [
-        {
-          "text": "Berlin",
-          "isCorrect": false
-        },
-        {
-          "text": "Madrid",
-          "isCorrect": false
-        },
-        {
-          "text": "Paris",
-          "isCorrect": true
-        },
-        {
-          "text": "Rome",
-          "isCorrect": false
-        }
-      ],
-      "score": 1
-    },
-    {
-      "text": "What is the capital of France?",
-      "options": [
-        {
-          "text": "Berlin",
-          "isCorrect": false
-        },
-        {
-          "text": "Madrid",
-          "isCorrect": false
-        },
-        {
-          "text": "Paris",
-          "isCorrect": true
-        },
-        {
-          "text": "Rome",
           "isCorrect": false
         }
       ],

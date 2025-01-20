@@ -14,6 +14,8 @@ function Quiz({ question, onScoreUpdate}) {
             setIsChecked(true);
             if (isAnswerCorrect) {
                 onScoreUpdate(1);
+            } else {
+                onScoreUpdate(0);
             }
         }
     };
