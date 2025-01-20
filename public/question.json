@@ -6,7 +6,8 @@
         { "text": "The fire and the sun", "isCorrect": false },
         { "text": "The water and the wind", "isCorrect": false },
         { "text": "The sun and the the earth", "isCorrect": false }
-      ]
+      ],
+      "score":1
     },
     {
       "text": "What are they having?",
@@ -15,7 +16,8 @@
         { "text": "They are having a disagreement. ", "isCorrect": true },
         { "text": "They are having a party", "isCorrect": false },
         { "text": "They are having a meeting", "isCorrect": false }
-      ]
+      ],
+      "score":1
     },
     {
       "text": "What are they arguing about?",
@@ -24,7 +26,8 @@
         { "text": "Who is the tallest?", "isCorrect": false },
         { "text": "Who is the weakest?", "isCorrect": true },
         { "text": "Who is the strongest?", "isCorrect": false }
-      ]
+      ],
+      "score":1
     },
     {
       "text": "What is the capital of France?",
@@ -33,7 +36,8 @@
         { "text": "Madrid", "isCorrect": false },
         { "text": "Paris", "isCorrect": true },
         { "text": "Rome", "isCorrect": false }
-      ]
+      ],
+      "score":1
     },
     {
       "text": "What is the capital of France?",
@@ -42,7 +46,8 @@
         { "text": "Madrid", "isCorrect": false },
         { "text": "Paris", "isCorrect": true },
         { "text": "Rome", "isCorrect": false }
-      ]
+      ],
+      "score":1
     }
   ]
   
