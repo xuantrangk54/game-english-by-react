@@ -1,0 +1,8 @@
+{
+    "FTP_SERVER": "103.97.126.29",
+    "FTP_USERNAME": "wmuuqkbn",
+    "FTP_PASSWORD": "4lwQc7hiY9",
+    "FTP_REMOTE_DIR": "/domains/nguyenxuantrang.name.vn/public_html",
+    "LOCAL_BUILD_DIR": "./build"
+  }
+  

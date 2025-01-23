@@ -62,11 +62,9 @@ function App() {
     <div className="container mt-5">
       <GameList hanldeUpdateGameOption={hanldeUpdateGameOption}></GameList>
       {(gameOption) ? <AGame key={gameOption} examFile={gameOption} showResultGame={showResultGame}></AGame> : <p>NoGame</p>}
-
       <button className="btn btn-success" onClick={handleOpenModal}>
         Hiển thị kết quả
       </button>
-
       <GameResultModal isOpen={isModalOpen} onClose={handleCloseModal}>
         <p>Chúc mừng! Bạn đã chiến thắng với số điểm: {totalScore} !</p>
       </GameResultModal>
